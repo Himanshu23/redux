@@ -1,0 +1,15 @@
+.content{
+    background-color: #eee;
+    height: calc(100% - 120px);
+}
+
+.errmsg{
+    font-size: 12px;
+    color: red; 
+    display:block;
+}
+.succmsg{
+    font-size: 12px;
+    color: green; 
+    display:block;
+}

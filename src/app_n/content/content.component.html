@@ -1,0 +1,47 @@
+<div class="content">
+    <div>
+        
+        <div style = "height:100px;width:500px;line-height: 2;padding-top:20px ">
+            <form name="login">
+                First name: <input type="text" name="loginName" [(ngModel)]="loginName"><br>
+                password: <input type="password" name="loginPassword" [(ngModel)]="loginPassword"><br>
+                <input type="button" value="Submit" (click)="login()">
+            </form>
+        </div>
+   
+        
+        
+        <div style = "height:100px;width:500px;line-height: 2;padding-top:20px ">
+           <form name="register"> 
+                First name: <input type="text" name="registerName" [(ngModel)]="registerName"><br>
+                password: <input type="password" name="registerPassword" [(ngModel)]="registerPassword"><br>
+                retype password: <input type="password" name="RegisterConfirmPassword" [(ngModel)]="registerConfirmPassword"><br>
+                <input type="button" value="Submit" (click)="register()">
+           </form>
+        
+        </div>
+
+        <!--
+            div style = "height:100px;width:500px;line-height: 2;padding-top:20px ">
+            <form name="login">
+                First name: <input type="text" name="loginName" [(ngModel)]="login.name"><br>
+                password: <input type="password" name="loginPassword" [(ngModel)]="login.password"><br>
+                <input type="button" value="Submit" (click)="login()">
+            </form>
+        </div>
+   
+        
+        
+        <div style = "height:100px;width:500px;line-height: 2;padding-top:20px ">
+           <form name="register"> 
+                First name: <input type="text" name="registerName" [(ngModel)]="register.name"><br>
+                password: <input type="password" name="registerPassword" [(ngModel)]="register.password"><br>
+                retype password: <input type="password" name="registerConfirmPassword" [(ngModel)]="register.confirmPassword"><br>
+                <input type="button" value="Submit" (click)="register()">
+           </form>
+        
+        </div>
+        -->
+            
+</div>    
+</div>

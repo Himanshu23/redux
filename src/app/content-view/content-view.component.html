@@ -1,0 +1,9 @@
+<div>
+  <div #carousel class="carousel" [ngClass]="{ 'initialized': showInitialized }"
+ materialize="carousel" [materializeActions]="actions">
+    <a *ngFor="let photo of photos" class="carousel-item">
+      <img [src]="photo.url"></a>
+  </div>
+</div>
+  <a  [routerLink]="['/content-list']"  class="waves-effect btn">Back</a>
+  

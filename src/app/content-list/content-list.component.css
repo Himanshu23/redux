@@ -1,0 +1,14 @@
+.search-results {
+    height: 400px;
+    overflow-y: scroll;
+    width:100%;
+  }
+  .main-panel {
+    height: 100px;
+    overflow-y: scroll;
+  }
+  .container{
+    background-color: #eee;
+    height: calc(100% - 120px);
+    width:100%;
+}
